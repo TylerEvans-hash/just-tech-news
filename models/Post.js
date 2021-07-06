@@ -19,7 +19,7 @@ Post.init(
             type: DataTypes.STRING,
             allowNull: false,
             validate: {
-                usURL: true
+                isURL: true
             }
         },
         user_id: {
